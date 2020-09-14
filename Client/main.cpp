@@ -11,6 +11,7 @@ void ShowErrorMessage(string message) {
 }
 
 int main() {
+	cout << "[Wellcome]\n";
 	WSADATA wsaData; //구조체변수생성(WInSock라이브러리에포함되있음)
 	SOCKET clientSocket;
 	SOCKADDR_IN serverAddress;
